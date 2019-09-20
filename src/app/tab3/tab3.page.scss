@@ -1,1 +1,25 @@
 
+.dirt-image-container {
+    overflow: hidden;
+    box-shadow: none;
+  }
+.bg-transparent {
+  background: transparent;
+}
+.nav-header {
+  padding-top : 2rem;
+  background: #3CA55C;
+}
+.capture-empty-state {
+    text-align: center;
+    padding: 4rem;
+}
+
+.capture-icon-container{
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: url("/assets/images/drone-snap-bg.png");
+  background-size: contain;
+}

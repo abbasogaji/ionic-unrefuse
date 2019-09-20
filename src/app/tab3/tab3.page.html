@@ -1,9 +1,19 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Tab Three
-    </ion-title>
+<ion-header class="nav-header bg-deep-primary">
+  <ion-toolbar class="bg-primary" color="#fff">
+    <ion-title class="text-white">Add to Garbage Collection</ion-title>
   </ion-toolbar>
 </ion-header>
-
-<ion-content></ion-content>
+<ion-content>
+  <ion-card class="dirt-image-container">
+      <div class="capture-empty-state">
+        <div class="capture-icon-container"></div>
+        <h4>Capture Garbage / Slum</h4>
+        <p>Take a snapshot of the garbage 2.0 meters away</p>
+      </div>
+  </ion-card>
+    <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+      <ion-fab-button  (click)="takePicture()">
+        <ion-icon name="camera"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+</ion-content>

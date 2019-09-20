@@ -1,5 +1,7 @@
 {
   "name": "ionic-unrefuse",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

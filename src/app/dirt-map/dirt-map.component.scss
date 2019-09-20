@@ -1,0 +1,20 @@
+.match-parent {
+    width: 105vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+.map-display{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  overflow-x: hidden;
+  overflow: hidden;
+}

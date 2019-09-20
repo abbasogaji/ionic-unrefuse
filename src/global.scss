@@ -24,3 +24,274 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+
+
+// Font Styles
+@font-face {
+    font-family: 'montserratblack';
+    src: url('/assets/fonts/montserrat/montserrat-black-webfont.woff2') format('woff2'),
+         url('/assets/fonts/montserrat/montserrat-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratblack_italic';
+    src: url('/assets/fonts/montserrat/montserrat-blackitalic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/montserrat/montserrat-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('/assets/fonts/montserrat/montserrat-bold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/montserrat/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratbold_italic';
+    src: url('/assets/fonts/montserrat/montserrat-bolditalic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/montserrat/montserrat-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratextrabold';
+    src: url('/assets/fonts/montserrat/montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/montserrat/montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratextrabold_italic';
+    src: url('/assets/fonts/montserrat/montserrat-extrabolditalic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/montserrat/montserrat-extrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratextralight';
+    src: url('/assets/fonts/montserrat/montserrat-extralight-webfont.woff2') format('woff2'),
+         url('/assets/fonts/montserrat/montserrat-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratextralight_italic';
+    src: url('/assets/fonts/montserrat/montserrat-extralightitalic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/montserrat/montserrat-extralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+
+    font-family: 'montserratlight';
+    src: url("/assets/fonts/montserrat/montserrat-light-webfont.woff2") format("woff2"),
+         url("/assets/fonts/montserrat/montserrat-light-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratlight_italic';
+    src: url('/assets/fonts/montserrat/montserrat-lightitalic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/montserrat/montserrat-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('/assets/fonts/montserrat/montserrat-medium-webfont.woff2') format('woff2'),
+         url('/assets/fonts/montserrat/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratmedium_italic';
+    src: url('/assets/fonts/montserrat/montserrat-mediumitalic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/montserrat/montserrat-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("/assets/fonts/poppins/Poppins-Regular.eot");
+    src: url("/assets/fonts/poppins/Poppins-Regular.eot?#iefix") format('embedded-opentype'),
+         url("/assets/fonts/poppins/Poppins-Regular.woff2") format('woff2'),
+         url("/assets/fonts/poppins/Poppins-Regular.woff") format('woff'),
+         url("/assets/fonts/poppins/Poppins-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Poppins italic */
+
+@font-face {
+    font-family: "Poppins";
+    src: url('/assets/fonts/poppins/Poppins-Italic.eot');
+    src: url('/assets/fonts/poppins/Poppins-Italic.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/poppins/Poppins-Italic.woff2') format('woff2'),
+         url('/assets/fonts/poppins/Poppins-Italic.woff') format('woff'),
+         url('/assets/fonts/poppins/Poppins-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Poppins bold */
+
+@font-face {
+    font-family: "Poppins";
+    src: url('/assets/fonts/poppins/Poppins-Bold.eot');
+    src: url('/assets/fonts/poppins/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/poppins/Poppins-Bold.woff2') format('woff2'),
+         url('/assets/fonts/poppins/Poppins-Bold.woff') format('woff'),
+         url('/assets/fonts/poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('/assets/fonts/poppins/Poppins-SemiBold.eot');
+    src: url('/assets/fonts/poppins/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/poppins/Poppins-SemiBold.woff2') format('woff2'),
+         url('/assets/fonts/poppins/Poppins-SemiBold.woff') format('woff'),
+         url('/assets/fonts/poppins/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* end of font configuration */
+
+
+/* Font configuration */
+@font-face {
+    font-family: "Nunito";
+    src: url("/assets/fonts/nunito/Nunito-Regular.eot");
+    src: url("/assets/fonts/nunito/Nunito-Regular.eot?#iefix") format('embedded-opentype'),
+         url("/assets/fonts/nunito/Nunito-Regular.woff2") format('woff2'),
+         url("/assets/fonts/nunito/Nunito-Regular.woff") format('woff'),
+         url("/assets/fonts/nunito/Nunito-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* nunito italic */
+
+@font-face {
+    font-family: "Nunito";
+    src: url('/assets/fonts/nunito/Nunito-Italic.eot');
+    src: url('/assets/fonts/nunito/Nunito-Italic.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/nunito/Nunito-Italic.woff2') format('woff2'),
+         url('/assets/fonts/nunito/Nunito-Italic.woff') format('woff'),
+         url('/assets/fonts/nunito/Nunito-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* nunito bold */
+
+@font-face {
+    font-family: "Nunito";
+    src: url('/assets/fonts/nunito/Nunito-Bold.eot');
+    src: url('/assets/fonts/nunito/Nunito-Bold.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/nunito/Nunito-Bold.woff2') format('woff2'),
+         url('/assets/fonts/nunito/Nunito-Bold.woff') format('woff'),
+         url('/assets/fonts/nunito/Nunito-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+:root {
+    --notch-inset-top: 0px;
+    --notch-inset-right: 0px;
+    --notch-inset-bottom: 0px;
+    --notch-inset-left: 0px;
+}
+/* end of font configuration */
+body {
+    font-family: 'montserratlight';
+}
+
+.bg-primary{
+    background: #2a703f !important;
+}
+.bg-deep-primary {
+    background: #246637 !important;
+}
+.text-white{
+    color :#fff !important;
+}
+.p-0{
+    padding: 0 !important;
+}
+.m-0{
+    margin: 0 !important;
+}
+* {
+    font-family: 'montserratlight';
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Nunito', sans-serif;
+}
+
+.center-col{
+    margin : 0 auto;
+}
+

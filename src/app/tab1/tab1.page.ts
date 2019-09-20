@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+// import { AndroidFullScreenOriginal } from '@ionic-native/android-full-screen';
 
 @Component({
   selector: 'app-tab1',
@@ -7,6 +8,12 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
-  constructor() {}
-
+  constructor(
+    // private androidFullScreen: AndroidFullScreenOriginal
+    ) {
+  //   this.androidFullScreen.isImmersiveModeSupported()
+  // .then(() => console.log('Immersive mode supported'))
+  // .catch(err => console.log(err));
+  }
+  
 }
